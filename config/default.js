@@ -1,8 +1,8 @@
 module.exports = {
     port: 1338,
-    origin: 'https://logef.vercel.app',
+    origin: 'https://logefserver.vercel.app',
     dbUri: "mongodb+srv://cedriclf2:Mle251991S@cluster0.9imrqth.mongodb.net/?retryWrites=true&w=majority",
-    socketHost: 'https://logef.vercel.app',
+    socketHost: 'https://logefserver.vercel.app',
     saltWorkFactor: 10,
     accessTokenTtl:"45m",
     refreshTokenTtl: "1y",
